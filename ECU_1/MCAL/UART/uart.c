@@ -43,7 +43,13 @@ void UART_init(const UART_Config_Type * Copy_Uart_config_type)
 	 * RXB8 & TXB8 not used for 8-bit data mode
 	 ***********************************************************************/ 
 	UCSRB = (1<<RXEN) | (1<<TXEN);
-	
+	if( Copy_Uart_config_type->bit_data == BIT_9 )
+	{
+		UCSRB |= (1<<UCSZ2):
+	}else
+	{
+		UCSRB &= ~(1<<UCSZ2);
+	}
 	/************************** UCSRC Description **************************
 	 * URSEL   = 1 The URSEL must be one when writing the UCSRC
 	 * UMSEL   = 0 Asynchronous Operation
@@ -52,7 +58,11 @@ void UART_init(const UART_Config_Type * Copy_Uart_config_type)
 	 * UCSZ1:0 = 11 For 8-bit data mode
 	 * UCPOL   = 0 Used with the Synchronous operation only
 	 ***********************************************************************/ 	
-	UCSRC = (1<<URSEL) | (1<<UCSZ0) | (1<<UCSZ1) | (Copy_Uart_config_type->parity<<UPM1) | (Copy_Uart_config_type->stop_bit<<USBS) | ; 
+	UCSRC = (1<<URSEL) | (1<<UCSZ0) | (1<<UCSZ1) | (Copy_Uart_config_type->parity<<UPM1) 
+												 | (Copy_Uart_config_type->stop_bit<<USBS) 
+												 | (Copy_Uart_config_type->bit_data<<UCSZ1) ; 
+	
+
 	
 	/* Calculate the UBRR register value */
 	ubrr_value = (uint16)(((F_CPU / (baud_rate * 8UL))) - 1);

@@ -14,7 +14,7 @@
 #define UART_H_
 
 #include "std_types.h"
-
+/*
 typedef enum{
 
     BAUD_RATE_2400 = 207,
@@ -28,7 +28,9 @@ typedef enum{
     BAUD_RATE_76_8k = 6,
     BAUD_RATE_115_2k = 3
 
-}UART_BaudRate;
+}UART_BaudRate;*/
+
+typedef uint32 UART_BaudRate;
 
 typedef enum{
 
@@ -47,11 +49,11 @@ typedef enum{
 
 typedef enum{
 
-    BIT_5 = 0b000,
-    BIT_6 = 0b001,
-    BIT_7 = 0b010,
-    BIT_8 = 0b011,
-    BIT_9 = 0b111
+    BIT_5 = 0b00,
+    BIT_6 = 0b01,
+    BIT_7 = 0b10,
+    BIT_8 = 0b11,
+    BIT_9 = 0b11
 
 }UART_BitData;
 
