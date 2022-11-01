@@ -21,6 +21,9 @@ add_executable( ${PROJECT_NAME}.elf
                             ${MCAL_PATH}/UART/uart.c
                             ${MCAL_PATH}/GPIO/gpio.c
 
+                            ${MCAL_PATH}/Timer1/timer1.c
+
+
                             ${HAL_PATH}/LCD/lcd.c
                             ${HAL_PATH}/Key_pad/keypad.c
 
@@ -30,6 +33,7 @@ target_include_directories( ${PROJECT_NAME}.elf PUBLIC
 
                             ${MCAL_PATH}/UART/
                             ${MCAL_PATH}/GPIO/
+                            ${MCAL_PATH}/Timer1/
 
                             ${HAL_PATH}/LCD/
                             ${HAL_PATH}/Key_pad/

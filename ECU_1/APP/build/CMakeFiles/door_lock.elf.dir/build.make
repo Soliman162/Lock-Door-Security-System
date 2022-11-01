@@ -111,10 +111,24 @@ CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c.s"
 	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c -o CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c.s
 
+CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o: CMakeFiles/door_lock.elf.dir/flags.make
+CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o: /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c
+CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o: CMakeFiles/door_lock.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/APP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o -MF CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o.d -o CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o -c /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c
+
+CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.i"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c > CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.i
+
+CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.s"
+	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c -o CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.s
+
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o: CMakeFiles/door_lock.elf.dir/flags.make
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o: /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o: CMakeFiles/door_lock.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/APP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/APP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o"
 	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o -MF CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o.d -o CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o -c /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c
 
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o: CMakeFiles/door_lock.elf.dir/flags.make
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o: /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o: CMakeFiles/door_lock.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/APP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/APP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o"
 	/usr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o -MF CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o.d -o CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o -c /home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c
 
 CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.i: cmake_force
@@ -144,6 +158,7 @@ door_lock_elf_OBJECTS = \
 "CMakeFiles/door_lock.elf.dir/main.c.o" \
 "CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.c.o" \
 "CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c.o" \
+"CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o" \
 "CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o" \
 "CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o"
 
@@ -153,11 +168,12 @@ door_lock_elf_EXTERNAL_OBJECTS =
 door_lock.elf: CMakeFiles/door_lock.elf.dir/main.c.o
 door_lock.elf: CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.c.o
 door_lock.elf: CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c.o
+door_lock.elf: CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o
 door_lock.elf: CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/LCD/lcd.c.o
 door_lock.elf: CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/HAL/Key_pad/keypad.c.o
 door_lock.elf: CMakeFiles/door_lock.elf.dir/build.make
 door_lock.elf: CMakeFiles/door_lock.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/APP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable door_lock.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/APP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable door_lock.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/door_lock.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

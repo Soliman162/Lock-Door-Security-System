@@ -227,6 +227,30 @@ home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/door_lock.elf.dir/build.make CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c.s
 .PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.c.s
 
+home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.o: home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o
+.PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.o
+
+# target to build an object file
+home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/door_lock.elf.dir/build.make CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o
+.PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.o
+
+home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.i: home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.i
+.PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.i
+
+# target to preprocess a source file
+home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/door_lock.elf.dir/build.make CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.i
+.PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.i
+
+home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.s: home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.s
+.PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.s
+
+# target to generate assembly for a file
+home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/door_lock.elf.dir/build.make CMakeFiles/door_lock.elf.dir/home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.s
+.PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.c.s
+
 home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.o: home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.c.o
 .PHONY : home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.o
 
@@ -295,6 +319,9 @@ help:
 	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.o"
 	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.i"
 	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/GPIO/gpio.s"
+	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.o"
+	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.i"
+	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/Timer1/timer1.s"
 	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.o"
 	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.i"
 	@echo "... home/soliman/AVR/ATmega32/Lock_Security_System/ECU_1/MCAL/UART/uart.s"
