@@ -45,7 +45,7 @@ void UART_init(const UART_Config_Type * Copy_Uart_config_type)
 	UCSRB = (1<<RXEN) | (1<<TXEN);
 	if( Copy_Uart_config_type->bit_data == BIT_9 )
 	{
-		UCSRB |= (1<<UCSZ2):
+		UCSRB |= (1<<UCSZ2);
 	}else
 	{
 		UCSRB &= ~(1<<UCSZ2);
@@ -65,7 +65,7 @@ void UART_init(const UART_Config_Type * Copy_Uart_config_type)
 
 	
 	/* Calculate the UBRR register value */
-	ubrr_value = (uint16)(((F_CPU / (baud_rate * 8UL))) - 1);
+	ubrr_value = (uint16)(((F_CPU / (Copy_Uart_config_type->baud_rate * 8UL))) - 1);
 
 	/* First 8 bits from the BAUD_PRESCALE inside UBRRL and last 4 bits in UBRRH*/
 	UBRRH = ubrr_value>>8;

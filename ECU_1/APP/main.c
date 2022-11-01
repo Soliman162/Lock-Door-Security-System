@@ -1,11 +1,11 @@
-#include "../LIB/std_types.h"
-#include "../LIB/common_macros.h"
+#include "std_types.h"
+#include "common_macros.h"
 
-#include "../MCAL/GPIO/gpio.h"
-#include "../MCAL/UART/uart.h"
+#include "gpio.h"
+#include "uart.h"
 
-#include "../HAL/Key_pad/keypad.h"
-#include "../HAL/LCD/lcd.h"
+#include "keypad.h"
+#include "lcd.h"
 
 
 int main(void)

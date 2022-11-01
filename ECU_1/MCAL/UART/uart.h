@@ -61,7 +61,7 @@ typedef struct
 {
     UART_BitData bit_data ;
     UART_Parity parity;
-    UART_Stop_Bit stop_bit
+    UART_Stop_Bit stop_bit;
     UART_BaudRate baud_rate;
 
 }UART_Config_Type;
