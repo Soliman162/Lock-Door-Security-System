@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"lcd.h": "c",
+			"keypad.h": "c",
+			"std_types.h": "c"
+		}
+	}
+}
